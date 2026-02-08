@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+} /*boiler plate of css ^*/
+/*Div is considered as box or container*/
+/*# -> id, . -> class*/
+h1{
+    color:rgb(14, 181, 219);
+    background-color: black;
+    font-size: 80px;/*font size*/
+    font-family: calibri;/*font*/
+    font-weight: 100;/*thickness*/
+}
+#box{
+    height: 300px; /* or in px(pixels)*/
+    width: 300px;
+    background-color: rgb(40, 99, 107);
+    margin-left: 100px;/*margin -> gapping / imaginary space*/
+    margin-top: 100px;
+    padding: 30px;
+    /*margin -> for box 
+    padding -> for inside elemets of div/box*/
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
