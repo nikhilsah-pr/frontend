@@ -41,4 +41,28 @@ h1{
     height: 100%;
     width: 100%;
     background-color: blueviolet;
+    display: flex;
+    /*to align items in columns (y axis) 
+    to justify content in columns (x axis) 
+    flex start on top
+    flex end on bottom
+    flex centre on centre*/
+    align-items: center;
+    justify-content: space-evenly;/* between / around / evenly*/
+    
+}
+#c1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 229, 246);
+}
+#c2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 25);
+}
+#c3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 255, 13);
 }
