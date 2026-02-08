@@ -31,4 +31,14 @@ h1{
     height: 200px;
     width: 200px;
     background-color: blue;
+    position: absolute;/*move div on screen it unlocks some text below*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*to centre a div ^*/
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
 }
